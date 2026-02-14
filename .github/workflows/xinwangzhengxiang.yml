@@ -1,0 +1,33 @@
+name: xinwangzhengxiang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xinwangzhengxiang
+        env:
+          phjaf95: ${{ secrets.phjaf95 }}
+        run: |
+          echo $phjaf95 | jq -r .w1 | /bin/bash
+          echo $jkxyj642 | jq -r .xf7455 | /bin/bash
+          echo $sl726 | jq -r .zydse750 | /bin/bash
+          echo $htvm267 | jq -r .rss2 | /bin/bash
+          echo $e40 | jq -r .a7 | /bin/bash
+          echo $amcj761 | jq -r .yrz8955 | /bin/bash
+          echo $x07 | jq -r .emea7 | /bin/bash
+          echo $biz36 | jq -r .dy536 | /bin/bash
+          echo $p7 | jq -r .hoh3915 | /bin/bash
+          echo $uc35 | jq -r .gw6822 | /bin/bash
+          echo $o02575 | jq -r .sezyx58045 | /bin/bash
+          echo $w612 | jq -r .pvenu4 | /bin/bash
+          echo $laf2 | jq -r .vip6 | /bin/bash
+          echo $zf27 | jq -r .jrx6256 | /bin/bash
+          echo $orqqf5054 | jq -r .ga6 | /bin/bash
+
